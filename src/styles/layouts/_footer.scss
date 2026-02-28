@@ -51,6 +51,14 @@
       align-items: center;
       column-gap: rem(8);
     }
+
+    &-link.button {
+      padding: rem(10) rem(16);
+
+      @include laptop {
+        padding: rem(8) rem(14);
+      }
+    }
   }
 
   &__extra {
